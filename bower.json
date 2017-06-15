@@ -1,0 +1,11 @@
+{
+  "name": "author",
+  "description": "test work",
+  "main": "index.js",
+  "authors": [
+    "Tymofii <timsc7@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/timtim7373/author_time-isMoney",
+  "private": true
+}
