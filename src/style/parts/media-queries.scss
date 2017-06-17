@@ -1,0 +1,133 @@
+@media screen and (max-width: 1152px) {
+  .service .premium {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .footer .contact-us {
+    display: block;
+    text-align: center;
+  }
+  .footer .get-in-touch {
+    display: none;
+  }
+  .footer .get-in-touch2 {
+    display: inline-block;
+    padding-top: 50px;
+    p:nth-child(2) {
+      max-width: none;
+    }
+  }
+  .footer form button {
+    margin-bottom: 20px;
+  }
+  .footer form {
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    input:nth-child(1),
+    input:nth-child(2),
+    textarea {
+      float: none;
+    }
+    input:nth-child(1),
+    input:nth-child(2) {
+      width: 44%;
+    }
+    textarea {
+      width: 94%;
+    }
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header .nav-menu ul a {
+    padding: 40px 20px;
+  }
+  .header .main-heading h1 {
+    margin-bottom: 200px;
+  }
+  .header .main-heading img {
+    transform: translateY(-150%);
+  }
+  .header .main-heading h3 {
+    margin-top: 150px;
+  }
+  .footer form {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .service .pro {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .header .nav-menu ul {
+    padding-top: 20px;
+  }
+  .header .nav-menu ul a {
+    padding: 25px 20px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header .nav-menu ul {
+    padding-top: 20px;
+  }
+  .header .nav-menu ul a {
+    padding: 20px 15px;
+  }
+  .footer form input:nth-child(1),
+  .footer form input:nth-child(2) {
+    width: 90%;
+  }
+  .footer form textarea {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .main-heading, .team, .service {
+    position: relative;
+    top: 189px !important;
+  }
+  .content .service .outter-block>li {
+    padding: 0;
+    width: 100%;
+  }
+  .footer {
+    margin-top: 189px;
+  }
+  .header .main-heading h1 {
+    margin: 100px 0 160px;
+  }
+  .header .main-heading img {
+    transform: translateY(-150%);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nav-menu {
+    padding-bottom: 20px;
+  }
+  .header .nav-menu a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .header .nav-menu h2 {
+    margin-bottom: 0;
+  }
+  .header .nav-menu ul {
+    display: inline-flex;
+    float: right;
+    max-width: 100%;
+    padding-top: 10px;
+    justify-content: center;
+  }
+}

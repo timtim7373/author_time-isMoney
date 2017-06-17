@@ -1,0 +1,80 @@
+.footer {
+  position: relative;
+  margin-top: 98px;
+  padding-top: 50px;
+  background: url(../img/footer6.jpg);
+  background-size: cover;
+  h4 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 100px 0 100px;
+  }
+  .contact-us {
+    display: flex;
+    position: relative;
+  }
+  .get-in-touch, .get-in-touch2 {
+    display: inline-block;
+    width: 70%;
+    min-width: 450px;
+    padding-left: 15px;
+    h3 {
+      margin-bottom: 10px;
+    }
+    p:nth-child(2) {
+      color: #ababab;
+      margin-top: 0;
+      padding-bottom: 30px;
+      max-width: 440px;
+    }
+    img {
+      padding: 0 7px;
+      cursor: pointer;
+    }
+    p:last-child {
+      color: #af9ecf;
+    }
+  }
+  .get-in-touch2 {
+    padding: 10px 0 80px;
+    display: none;
+    min-width: auto;
+  }
+  form {
+    padding-top: 15px;
+    input:nth-child(1),
+    input:nth-child(2) {
+      height: 40px;
+      width: 41.5%;
+      border-radius: 5px;
+      border: 0;
+      float: right;
+      padding-left: 10px;
+      margin: 15px;
+    }
+    textarea {
+      height: 180px;
+      //width: 560px;
+      width: 90%;
+      border-radius: 5px;
+      border: 0;
+      display: block;
+      float: right;
+      padding-left: 10px;
+      margin: 15px;
+    }
+    button {
+      float: right;
+      display: inline-block;
+      font: 400 22px/1 'Open Sans', sans-serif;
+      background-color: #49cbcd;
+      border-radius: 3px;
+      border: 0;
+      width: 170px;
+      height: 50px;
+      margin: 15px 15px 100px;
+      color: #fff;
+    }
+  }
+}
