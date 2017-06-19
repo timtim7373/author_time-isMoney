@@ -4,7 +4,7 @@
   }
 }
 
-@media screen and (max-width: 936px) {
+@media screen and (max-width: 953px) {
   .footer .contact-us {
     display: block;
     text-align: center;
@@ -39,6 +39,13 @@
       width: 94%;
     }
 
+  }
+}
+
+@media screen and (max-width: 800px){
+  .footer form input:nth-child(1),
+  .footer form input:nth-child(2) {
+    width: 94%;
   }
 }
 
